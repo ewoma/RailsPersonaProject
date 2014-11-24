@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=Yellowtail|Calligraffitti|Roboto+Condensed:400,300,700);
+.main-content{
+	/*margin-top: 20px;*/
+}
+
+.sidebar{
+	/*border-right: 1px solid #e7e7e7;
+	height: 400px;
+	padding-top: 30px;
+	background-color: #e7e7e7;*/
+}
+
+.song-content{
+	/*padding-top: 50px;*/
+}
+
+/*.sidenav li{
+	padding: 15px 15px;
+	border-bottom: 1px solid #ddd;
+}*/
+.navbar {
+	background-color: #64e0ef;
+	border: 0px;
+}
+.navbar-brand{
+	font-weight: bold;
+	color: #38761d;
+
+}
+.nav{
+ 	font-weight: bold;
+	color: #38761d;
+
+}
+
+/*body
+{
+	 background-image: url(<%= asset_path 'image.png' %>) 
+background-image: url(<); 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+background-color: #FDFDFD;
+}*/
+
+/*.new
+{
+	box-shadow: 1px 1px 6px 8px #ccc;
+	border-radius: 50px 50px 50px 50px;
+	float: left;
+	padding-left: 70px;
+	/*background-color: #ffff99;
+}*/
+/*.list
+{
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 6px 8px #ccc;
+	width: 650px;
+	float: right;
+	/*position: relative;*/
+	/*padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}*/
+/*.landing_page
+{
+	width: 100%;
+	position: relative;*/
+
+}
+.paragraph
+	{
+		position: fixed; 
+   		width: 100px;
+	}
+
+.pan
+
+{
+	font-family: 'Yellowtail', cursive;
+	position: absolute; 
+  	top: 200px;
+  	/*width: 100%;*/ 
+  	color: yellow; 
+   	font-style: bolder; 
+  	font-size: 120px;
+   	letter-spacing: -1px; 
+   	/*margin-left: 4%;*/ 
+
+}
+
+.pand {
+	position: absolute; 
+  	top: 360px;
+  	margin-left: 15% ;
+  	background-color: #ec3426; 
+  	border: 0px;
+
+}
+
+.imaging {
+	position: relative;
+	/*height:630px;
+	width:1250px;
+	margin:0px;*/
+}
+
+
+/*@media (max-width: @screen-sm-min) {
+	.paragraph h1 {
+	font-family: 'Yellowtail', cursive;
+	font-weight: 600px;
+	font-weight: bolder;
+	font-style: italic;
+	text-indent: left;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 100px;
+	color: purple;
+}
+}*/
+
+.pill{
+	/*margin-left: 40%;*/
+}
+.row
+{
+	border-radius: 10px 10px 10px 10px;
+}
+
+.footer
+{
+	text-align: center;
+	color: black;
+}
+
+/*.btn 
+{
+	position: absolute; 
+  	top: 320px; 
+ 	left: 0; 
+  	width: 5%; 
+  	padding-left: 200px;
+  	background-color: #FF4500;
+}*/
+.form-control
+{
+	display: block;
+
+}
+.show /* this is the styling for the show song page. */
+{
+	border-radius: 10px 0px 10px 0px;
+	background-color: #E8E8E8;
+	width: 200%;
+	height: 170%;
+	padding-left: 20%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}

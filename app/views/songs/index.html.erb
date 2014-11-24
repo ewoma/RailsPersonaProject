@@ -1,0 +1,48 @@
+ <%= link_to 'New Song', new_song_path %>
+<div class="caption">List of Songs</div>	
+<div id="table">
+	<div class="header-row row">
+    <span class="cell primary">Title</span>
+    <span class="cell">Lyrics</span>
+     <span class="cell">Artist</span>
+    <span class="cell">Year</span>
+     <span class="cell">Album</span>
+    <span class="cell">Song</span>
+  </div>
+
+		<% @songs.each do |song| %>
+			<!-- <tr>
+				<td><%= song.title %></td>
+
+				<td><%= song.lyrics %></td>
+				<td><%= song.artist %></td>
+				<td><%= song.year %></td>
+				<td><%= song.album %></td>
+				<td><%= song.song %></td>
+
+ -->
+				<div class="row">
+	<input type="radio" name="expand">
+    <span class="cell primary" data-label="Title"><%= song.title %></span>
+    <span class="cell" data-label="Lyrics"><%= song.lyrics %></span>
+     <span class="cell" data-label="Artist"><%= song.artist %></span>
+     <span class="cell" data-label="Year"><%= song.year %></span>
+     <span class="cell" data-label="Album"><%= song.album %></span>
+     <span class="cell" data-label="Song"><%= song.song %></span>
+
+     <td><%= link_to 'Show', song_path(song) %></td>
+				<td><%= link_to 'Edit', edit_song_path(song) %></td>
+				<td><%= link_to 'Destroy', song_path(song), method: :delete, data: {confirm: 'Do you really want to delete?' } %></td>
+		
+  </div>
+
+
+				
+		<% end %>
+	</table>
+
+
+
+
+  
+ 
