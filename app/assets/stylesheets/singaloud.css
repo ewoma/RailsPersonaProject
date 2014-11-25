@@ -155,9 +155,23 @@ background-color: #FDFDFD;
 {
 	border-radius: 10px 0px 10px 0px;
 	background-color: #E8E8E8;
-	width: 200%;
-	height: 170%;
-	padding-left: 20%;
-	padding-top: 20%;
-	padding-bottom: 20%;
+	width: 69%;
+	/*height: 170%;*/
+	padding: 3%;
+	/*padding-top: 20%;
+	padding-bottom: 20%;*/
+}
+.show_image
+{
+	width: 100%;
+	height: 150px;
+	position: relative; 
+}
+
+.comment_show p
+{
+	color: blue;
+	font-style: bold;
+	f/*ont-size: 18px*/;
+
 }

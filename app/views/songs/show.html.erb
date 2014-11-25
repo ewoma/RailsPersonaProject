@@ -1,4 +1,11 @@
+
 <div class="show">
+
+
+	<p>
+	<%= image_tag ('Art-Music.jpg'), :class => "show_image" %>
+	</p>
+	 
 	<p>
 	<strong> Title:</strong>
 	<%= @song.title %>
@@ -28,6 +35,17 @@
 	<strong> Song:</strong>
 	<%= @song.song %>
 	</p>
+
+
+	<div class="comment_show">
+		<p>Comments</p>
+		<%= render @song.comments %>
+
+		<p>
+			Add a comment:
+		</p>
+		<%= render "comments/form" %>
+	</div>
 </div>
 
 <%= link_to 'Back', songs_path %>

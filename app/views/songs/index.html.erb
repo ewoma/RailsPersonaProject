@@ -24,7 +24,7 @@
 				<div class="row">
 	<input type="radio" name="expand">
     <span class="cell primary" data-label="Title"><%= song.title %></span>
-    <span class="cell" data-label="Lyrics"><%= song.lyrics %></span>
+    <span class="cell" data-label="Lyrics"><%= truncate song.lyrics %></span>
      <span class="cell" data-label="Artist"><%= song.artist %></span>
      <span class="cell" data-label="Year"><%= song.year %></span>
      <span class="cell" data-label="Album"><%= song.album %></span>

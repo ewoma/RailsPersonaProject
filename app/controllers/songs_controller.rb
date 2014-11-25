@@ -1,4 +1,6 @@
 class SongsController < ApplicationController
+
+	
 	layout 'Blessing'
 	def new
 		@song = Song.new
