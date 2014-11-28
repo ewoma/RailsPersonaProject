@@ -1,4 +1,4 @@
- <%= link_to 'New Song', new_song_path %>
+ <%= link_to 'New Song', new_song_path %><br><br>
 <div class="caption">List of Songs</div>	
 <div id="table">
 	<div class="header-row row">
@@ -7,7 +7,7 @@
      <span class="cell">Artist</span>
     <span class="cell">Year</span>
      <span class="cell">Album</span>
-    <span class="cell">Song</span>
+    <!-- <span class="cell">Song</span> -->
   </div>
 
 		<% @songs.each do |song| %>
@@ -28,10 +28,10 @@
      <span class="cell" data-label="Artist"><%= song.artist %></span>
      <span class="cell" data-label="Year"><%= song.year %></span>
      <span class="cell" data-label="Album"><%= song.album %></span>
-     <span class="cell" data-label="Song"><%= song.song %></span>
+    <!--  <span class="cell" data-label="Song"><%= song.song %></span> -->
 
-     <td><%= link_to 'Show', song_path(song) %></td>
-				<td><%= link_to 'Edit', edit_song_path(song) %></td>
+     <td><%= link_to 'Show', song_path(song) %></td>|
+				<td><%= link_to 'Edit', edit_song_path(song) %></td>|
 				<td><%= link_to 'Destroy', song_path(song), method: :delete, data: {confirm: 'Do you really want to delete?' } %></td>
 		
   </div>

@@ -21,6 +21,7 @@
 .navbar {
 	background-color: #64e0ef;
 	border: 0px;
+	width: 100%;
 }
 .navbar-brand{
 	font-weight: bold;
@@ -33,18 +34,18 @@
 
 }
 
-/*body
+body
 {
-	 background-image: url(<%= asset_path 'image.png' %>) 
+	/* background-image: url(<%= asset_path 'image.png' %>) 
 background-image: url(<); 
 -moz-background-size: cover;
 -webkit-background-size: cover;
 background-size: cover;
 background-position: top center !important;
 background-repeat: no-repeat !important;
-background-attachment: fixed;
-background-color: #FDFDFD;
-}*/
+background-attachment: fixed;*/
+background-color: #ebe5d5;
+}
 
 /*.new
 {
@@ -84,7 +85,7 @@ background-color: #FDFDFD;
 	position: absolute; 
   	top: 200px;
   	/*width: 100%;*/ 
-  	color: yellow; 
+  	color: #64e0ef; 
    	font-style: bolder; 
   	font-size: 120px;
    	letter-spacing: -1px; 
@@ -96,7 +97,7 @@ background-color: #FDFDFD;
 	position: absolute; 
   	top: 360px;
   	margin-left: 15% ;
-  	background-color: #ec3426; 
+  	background-color: #FAF9F5; 
   	border: 0px;
 
 }
@@ -158,6 +159,8 @@ background-color: #FDFDFD;
 	width: 69%;
 	/*height: 170%;*/
 	padding: 3%;
+	position: center;
+	margin-left: 270px;
 	/*padding-top: 20%;
 	padding-bottom: 20%;*/
 }
@@ -172,6 +175,6 @@ background-color: #FDFDFD;
 {
 	color: blue;
 	font-style: bold;
-	f/*ont-size: 18px*/;
+	
 
 }

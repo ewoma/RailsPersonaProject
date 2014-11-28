@@ -1,11 +1,12 @@
-
+<%= link_to 'Back', songs_path %>
+| <%= link_to 'Edit', edit_song_path(@song) %>
 <div class="show">
 
 
 	<p>
 	<%= image_tag ('Art-Music.jpg'), :class => "show_image" %>
 	</p>
-	 
+
 	<p>
 	<strong> Title:</strong>
 	<%= @song.title %>
@@ -34,8 +35,17 @@
 	<p>
 	<strong> Song:</strong>
 	<%= @song.song %>
-	</p>
 
+    <%= audio_tag @song.song.url, class: "audio-play", type: 'audio/mpeg', preload: :auto, controls: true  %>
+	</p>
+	<script>
+	$(".audioButton").on("click", function()
+		 {
+		  $(".audio-play")[0].currentTime = 0;
+		  return $(".audio-play")[0].play();
+		 }
+	); 
+	</script>
 
 	<div class="comment_show">
 		<p>Comments</p>
@@ -48,5 +58,3 @@
 	</div>
 </div>
 
-<%= link_to 'Back', songs_path %>
-| <%= link_to 'Edit', edit_song_path(@song) %>
