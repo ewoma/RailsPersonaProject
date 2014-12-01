@@ -36,57 +36,19 @@
 
     <%= javascript_include_tag "application" %>
   </head>
-  <body>
+  <body class="body">
     <div class="main-body">
-
-      <div class="navbar navbar-inverse" >
-        <div class="container">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-        
-
-          
-          <a class="navbar-brand" href= "#" >SingAloud</a> 
-          <div class="navbar-collapse collapse navbar-responsive-collapse">
-              <ul class="nav navbar-nav">
-                <li><%= link_to "Home", home_path %></li>
-                <li><%= link_to "Profile", "/path2"  %></li>
-                <li><%= link_to "Songs", songs_path  %></li>
-                <li><%= link_to "News", "/path3"  %></li>
-                <li><%= link_to "Logout", "new_user" %></li>
-
-              </ul>
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col-lg-9">
-          <%= bootstrap_flash %>
-           <p class="notice"><%= notice %></p>
-           <p class="alert"><%= alert %></p>
-          <%= yield %>
-        </div>
-        
-      </div><!--/row-->
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      
-
-      <!-- <footer>
-        <p>&copy; SingAloud 2014</p>
-      </footer> -->
-
-    </div> <!-- /container 
- -->
-  </body>
+      	<div class="row">
+	        <div class="col-lg-9">
+	          <%= bootstrap_flash %>
+	           <p class="notice"><%= notice %></p>
+	           <p class="alert"><%= alert %></p>
+	          <%= yield %>
+	        </div>
+		</div>
+	</div>
+</body>
 </html>

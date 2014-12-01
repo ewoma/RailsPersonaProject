@@ -46,6 +46,11 @@ background-repeat: no-repeat !important;
 background-attachment: fixed;*/
 background-color: #ebe5d5;
 }
+.body{
+	background: url('/assets/backg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 1100%;
+}
 
 /*.new
 {
@@ -178,3 +183,14 @@ background-color: #ebe5d5;
 	
 
 }
+.profile-image
+{
+	width: 70px;
+	height:70px;
+}
+.latest-news
+{
+	border-radius: 10px 10px 10px 10px;
+	border: 1px;
+}
+

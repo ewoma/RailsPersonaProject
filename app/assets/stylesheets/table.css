@@ -21,13 +21,29 @@ body {
 	 .caption {
 	 	display: block;
 	 	width: 180%;
-	 	background: #64e0ef;
-	 	height: 55px;
+	 	background-color: #64e0ef; 
+	 	height: 50px;
+	 	padding-left: 10px;
+	 	padding-top: 10px; 
+	 	border-radius: 10px 0px 10px 0px;
+	 	color: #fff;
+	 	font-size: 24px;
+	 	line-height: 20px;
+	 	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+	 	box-sizing: border-box;
+	 }
+
+	  .caption1 {
+	 	display: block;
+	 	width: 100%;
+	 	padding-top: 0px;
+	 	background-color: #fff;
+	 	height: 200px;
 	 	padding-left: 10px;
 	 	border-radius: 10px 0px 10px 0px;
 	 	color: #fff;
-	 	font-size: 20px;
-	 	line-height: 55px;
+	 	font-size: 15px;
+	 	line-height: 20px;
 	 	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 	 	box-sizing: border-box;
 	 }

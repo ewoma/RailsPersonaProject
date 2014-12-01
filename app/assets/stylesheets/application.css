@@ -14,3 +14,12 @@
  *= require_self
  */
 
+.login-form
+{
+	border-radius: 10px 10px 10px 10px;
+	text-align: left;
+	box-shadow: 2px;
+	margin-right: 50%;
+	/*background-color: black;*/
+	
+}
